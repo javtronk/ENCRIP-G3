@@ -1,0 +1,530 @@
+/*cel*/
+@media screen and (min-width: 300px) {
+  body {
+    margin: 24px 16px 24px 16px;
+    background-color: #e5e5e5;
+  }
+
+  .encavezado {
+    display: flexbox;
+    margin: 0px 327px 24px 0px;
+  }
+
+  .input-texto {
+    display: inline-block;
+    margin-top: 30px;
+    width: 333px;
+    height: 400px;
+    background: #e5e5e5;
+    border: none;
+  }
+
+  textarea {
+    border-radius: 15px;
+    font-size: 32px;
+    background: #e5e5e5;
+  }
+
+  .abiso {
+    display: inline-block;
+    padding: 15px 0px 15px 0px;
+    font-size: 22px;
+  }
+  .precaucion {
+    width: 26px;
+    height: 26px;
+  }
+
+  .botones {
+    display: inline-flexbox;
+  }
+
+  .encriptar {
+    background-color: #0a3871;
+    border-radius: 15px;
+    width: 333px;
+    height: 67px;
+    padding: 10px;
+    color: #fff;
+    font-size: 22px;
+  }
+
+  .encriptar:hover {
+    background-color: rgb(63, 99, 167);
+  }
+
+  .desencriptar {
+    background-color: #d8dfe8;
+    width: 333px;
+    height: 67px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    color: #0a3871;
+    font-size: 22px;
+  }
+
+  .desencriptar:hover {
+    background-color: bisque;
+  }
+
+  .men {
+    display: none;
+  }
+
+  .content-large {
+    display: block;
+    position: absolute;
+    width: 330px;
+    height: 182px;
+    left: 17px;
+    top: 780px;
+    background: #ffffff;
+    margin: 10px 0 15px 0;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+  }
+
+  .end-tx {
+    display: none;
+    position: absolute;
+    width: 330px;
+    height: 595px;
+    left: 16px;
+    top: 790px;
+    background: #ffffff;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+  }
+
+  .mensaje {
+    display: block;
+    position: absolute;
+    border: none;
+    width: 279px;
+    margin: 20px;
+    height: 452px;
+    background-color: #fff;
+  }
+
+  .copiar {
+    display: block;
+    position: absolute;
+    background: #fff;
+    width: 279px;
+    height: 67px;
+    top: 490px;
+
+    border-radius: 15px;
+    color: #0a3871;
+    margin-left: 22px;
+  }
+
+  h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;
+    padding: 20px 32px;
+
+    text-align: center;
+
+    color: #343a40;
+  }
+
+  h3 {
+    display: block;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #011d3e;
+  }
+
+  .content-large:hover {
+    opacity: 0;
+    display: block;
+  }
+
+  .footer {
+    display: inline-flex;
+    position: absolute;
+    top: 980px;
+  }
+
+  .end-logo {
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+  p {
+    display: block;
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+/*para tableta*/
+@media screen and (min-width: 768px) {
+  body {
+    margin: 24px 40px 24px 40px;
+    background-color: #e5e5e5;
+  }
+
+  .encavezado {
+    display: flexbox;
+    margin: 34px 327px 24px 0px;
+  }
+
+  .input-texto {
+    display: inline-block;
+    margin-top: 30px;
+    width: 688px;
+    height: 400px;
+    background: #e5e5e5;
+    border: none;
+  }
+
+  textarea {
+    border-radius: 15px;
+    font-size: 32px;
+    background: #e5e5e5;
+  }
+
+  .abiso {
+    display: inline-block;
+    padding: 15px 0px 15px 0px;
+    font-size: 32px;
+  }
+  .precaucion {
+    width: 36px;
+    height: 36px;
+  }
+
+  .botones {
+    display: inline-flexbox;
+  }
+
+  .encriptar {
+    background-color: #0a3871;
+    border-radius: 15px;
+    width: 688px;
+    height: 67px;
+    padding: 10px;
+    color: #fff;
+    font-size: 22px;
+  }
+
+  .encriptar:hover {
+    background-color: rgb(63, 99, 167);
+  }
+
+  .desencriptar {
+    background-color: #d8dfe8;
+    width: 688px;
+    height: 67px;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    color: #0a3871;
+    font-size: 22px;
+  }
+
+  .desencriptar:hover {
+    background-color: bisque;
+  }
+
+  .men {
+    display: none;
+  }
+
+  .content-large {
+    display: block;
+    position: absolute;
+    width: 688px;
+    height: 182px;
+    left: 40px;
+    top: 780px;
+    background: #ffffff;
+    margin: 10px 0 15px 0;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+  }
+
+  .end-tx {
+    display: none;
+    position: absolute;
+    width: 688px;
+    height: 595px;
+    left: 40px;
+    top: 790px;
+    background: #ffffff;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+  }
+
+  .mensaje {
+    display: block;
+    position: absolute;
+    border: none;
+    width: 630px;
+    margin: 30px;
+    height: 440px;
+    background-color: #fff;
+  }
+
+  .copiar {
+    display: block;
+    position: absolute;
+    background: #fff;
+    width: 640px;
+    height: 67px;
+    top: 490px;
+
+    border-radius: 15px;
+    color: #0a3871;
+    margin-left: 22px;
+  }
+
+  h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    padding: 20px 32px;
+
+    text-align: center;
+
+    color: #343a40;
+  }
+
+  h3 {
+    display: block;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+
+    text-align: center;
+
+    color: #011d3e;
+  }
+
+  .content-large:hover {
+    opacity: 0;
+    display: block;
+  }
+
+  .footer {
+    display: inline-flex;
+    position: absolute;
+    top: 990px;
+  }
+
+  .end-logo {
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+  p {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .copyright {
+    text-align: center;
+    margin-left: 120px;
+    font-size: 25px;
+  }
+}
+
+/*desktop*/
+@media screen and (min-width: 1440px) {
+  body {
+    margin: 40px 40px 24px 40px;
+    background-color: #e5e5e5;
+  }
+
+  .encavezado {
+    display: flex;
+    margin: 34px 327px 24px 50px;
+  }
+
+  .input-texto {
+    display: flex;
+    margin-top: 30px;
+    width: 950px;
+    height: 500px;
+    background: #e5e5e5;
+    border: none;
+    margin-left: 200px;
+  }
+
+  textarea {
+    border-radius: 15px;
+    font-size: 32px;
+    background: #e5e5e5;
+  }
+
+  .abiso {
+    display: inline-block;
+    padding: 15px 0px 15px 0px;
+    font-size: 32px;
+    margin-left: 200px;
+  }
+  .precaucion {
+    width: 36px;
+    height: 36px;
+  }
+
+  .botones {
+    display: inline;
+    margin-left: 200px;
+  }
+
+  .encriptar {
+    background-color: #0a3871;
+    border-radius: 15px;
+    width: 358px;
+    height: 67px;
+    color: #fff;
+    font-size: 22px;
+    margin-right: 80px;
+  }
+
+  .encriptar:hover {
+    background-color: rgb(63, 99, 167);
+  }
+
+  .desencriptar {
+    background-color: #d8dfe8;
+    width: 358px;
+    height: 67px;
+    border-radius: 15px;
+    color: #0a3871;
+    font-size: 22px;
+    margin-left: 60px;
+  }
+
+  .desencriptar:hover {
+    background-color: bisque;
+  }
+
+  .men {
+    display: block;
+    margin: 140px 32px 90px 32px;
+  }
+
+  .content-large {
+    display: block;
+    position: absolute;
+    width: 400px;
+    height: 780px;
+    left: 1280px;
+    top: 40px;
+    background: #ffffff;
+    margin: 10px 0 15px 0;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+  }
+
+  .end-tx {
+    display: none;
+    position: absolute;
+    width: 400px;
+    height: 780px;
+    left: 1280px;
+    top: 40px;
+    background: #ffffff;
+
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+  }
+
+  .mensaje {
+    display: block;
+    position: absolute;
+    border: none;
+    width: 340px;
+    margin: 30px;
+    height: 500px;
+    background-color: #fff;
+  }
+
+  .copiar {
+    display: block;
+    position: absolute;
+    background: #fff;
+    width: 300px;
+    height: 67px;
+    top: 690px;
+    left: 30px;
+
+    border-radius: 15px;
+    color: #0a3871;
+    margin-left: 22px;
+  }
+
+  h2 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 120%;
+    padding: 20px 32px;
+
+    text-align: center;
+
+    color: #343a40;
+  }
+
+  h3 {
+    display: block;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    margin: 16px 36px;
+
+    text-align: center;
+
+    color: #011d3e;
+  }
+
+  .footer {
+    display: inline-flex;
+    position: absolute;
+    top: 950px;
+  }
+
+  .end-logo {
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+  p {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .copyright {
+    text-align: center;
+    margin-left: 620px;
+    font-size: 25px;
+  }
+}
